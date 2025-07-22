@@ -67,7 +67,7 @@ const carouselData = [
   },
   {
     image: C7,
-    desc: "Vice chancellor Prof. Alok Kumar Rai welcomes Hon'ble governor Anandiben Patel at 26th Educational Film Festival.",
+    desc: "Vice chancellor Prof. Alok Kumar Rai welcomes Honble governor Anandiben Patel at 26th Educational Film Festival.",
   },
   {
     image: C8,
@@ -249,7 +249,7 @@ export default function Home() {
                     Rashtragaurav Examination Form Submission (2024-25)
                   </div>
                   <div className="py-[5px] text-sm text-[black] flex flex-row items-center justify-between">
-                    <span>Login's</span>
+                    <span>Login&apos;s</span>
                     <Image
                       src={
                         "https://img.icons8.com/?size=100&id=n5ktqRhw2GBX&format=png&color=000000"
