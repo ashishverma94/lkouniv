@@ -7,7 +7,6 @@ import FirstImg from "@/assets/first.jpg";
 import RightImg from "@/assets/right.png";
 import SecondImg from "@/assets/second.png";
 import FooterImg from "@/assets/footer.png";
-import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import SitemapImg from "@/assets/sitemap.png";
 import FooterUp1 from "@/assets/footerup1.png";
