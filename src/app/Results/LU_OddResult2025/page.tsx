@@ -6,7 +6,7 @@ import { useGlobalStore } from "@/store/useGlobalStore";
 import Res2021 from "@/assets/results/2021.jpg";
 import Res2022 from "@/assets/results/2022.jpg";
 
-const page = () => {
+const Page = () => {
   const { resTitle } = useGlobalStore();
   const [showPopup, setShowPopup] = useState(false);
 
@@ -61,7 +61,7 @@ const page = () => {
         <Image src={ResultImg} alt="result" className="w-[561px]" />
         <div className="w-[561px] shadow-lg border border-[#d3cfcf] py-3 px-8">
           <div className="text-lg text-[#333333] font-semibold mb-2 flex flex-col text-center">
-            <h2>Student’s Result</h2>
+            <h2>Student&apos;s Result</h2>
             <h2>({resTitle})</h2>
           </div>
 
@@ -255,4 +255,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
