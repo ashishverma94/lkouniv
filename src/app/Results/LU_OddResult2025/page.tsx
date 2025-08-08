@@ -5,6 +5,9 @@ import Image from "next/image";
 import { useGlobalStore } from "@/store/useGlobalStore";
 import Res2021 from "@/assets/results/2021.jpg";
 import Res2022 from "@/assets/results/2022.jpg";
+import BCA2023 from "@/assets/results/BCA-2023.jpg";
+import BCA2024 from "@/assets/results/BCA-2024.jpg";
+import BCA2025 from "@/assets/results/BCA-2025.jpg";
 
 const Page = () => {
   const { resTitle } = useGlobalStore();
@@ -52,6 +55,24 @@ const Page = () => {
       form.rollNo === "190530060048"
     ) {
       window.open(Res2022.src, "_blank");
+    } else if (
+      resTitle === "Odd Semester Result 2022-23" &&
+      form.course === "BCA" &&
+      form.rollNo === "2250084040048"
+    ) {
+      window.open(BCA2023.src, "_blank");
+    } else if (
+      resTitle === "Odd Semester Result 2023-24" &&
+      form.course === "BCA" &&
+      form.rollNo === "2250084040048"
+    ) {
+      window.open(BCA2024.src, "_blank");
+    } else if (
+      resTitle === "Odd Semester Result 2024-25" &&
+      form.course === "BCA" &&
+      form.rollNo === "2250084040048"
+    ) {
+      window.open(BCA2025.src, "_blank");
     } else {
       setShowPopup(true);
     }
