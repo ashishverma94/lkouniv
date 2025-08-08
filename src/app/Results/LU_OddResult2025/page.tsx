@@ -16,7 +16,7 @@ const Page = () => {
   const [form, setForm] = useState({
     course: "",
     semester: "",
-    examType: "",
+    examType: "", 
     rollNo: "",
     dob: "",
   });
